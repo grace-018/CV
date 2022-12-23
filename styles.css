@@ -1,0 +1,41 @@
+body{
+    background-color:#EAF6F6;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    width: 5%;
+    border-width: 5px;
+}
+h1 {
+    color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+}
+/**** class selectors****/
+.navigation 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EAF6F6;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navlist {
+    float: left;
+  }
+  
+.navlist a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px;
+  }
